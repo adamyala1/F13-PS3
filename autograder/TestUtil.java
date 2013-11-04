@@ -11,8 +11,8 @@ import minesweeper.server.MinesweeperServer;
 
 public class TestUtil {
     
-    // ...
-    // ...
+    private static final int port = // ... a random port ...
+    private static final String portStr = Integer.toString(port);
     
     /**
      * Return the absolute path of the specified file resource on the current Java classpath.
